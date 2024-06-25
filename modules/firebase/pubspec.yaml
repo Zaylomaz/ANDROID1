@@ -1,0 +1,16 @@
+name: firebase
+
+publish_to: 'none'
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  firebase_crashlytics: ^3.3.4
+  firebase_core: ^2.14.0
+  firebase_remote_config: ^4.2.3
+  firebase_analytics: ^10.4.3
+  core:
+    path: ../core

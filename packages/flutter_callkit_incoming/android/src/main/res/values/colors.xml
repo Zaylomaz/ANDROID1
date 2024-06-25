@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="accept">#9fe89c</color>
+    <color name="accept_ripple">#313C30</color>
+    <color name="decline">#d46e6a</color>
+    <color name="decline_ripple">#392929</color>
+    <color name="violet">#9285ee</color>
+    <color name="text_color">#3b3b51</color>
+
+    <color name="action_text">#FFFFFF</color>
+    <color name="ripple_main_color">#acacac</color>
+</resources>

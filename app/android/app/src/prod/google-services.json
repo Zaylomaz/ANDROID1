@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "348692331514",
+    "project_id": "rempc-crm",
+    "storage_bucket": "rempc-crm.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:348692331514:android:360518ebc25e18e7094243",
+        "android_client_info": {
+          "package_name": "com.rempc.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "348692331514-ojp0i9qei9r7dn4om8rv2bu76u29olvq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB6kiMqET8u8Yy9CzSkQjgDBHW9zGRl-i8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "348692331514-ojp0i9qei9r7dn4om8rv2bu76u29olvq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

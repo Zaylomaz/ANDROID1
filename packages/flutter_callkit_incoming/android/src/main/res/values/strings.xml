@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="text_accept">Принять</string>
+    <string name="text_decline">Отбой</string>
+    <string name="text_missed_call">Пропущенный звонок</string>
+    <string name="text_call_back">Перезвонить</string>
+    <string name="avatar">Аватар</string>
+</resources>

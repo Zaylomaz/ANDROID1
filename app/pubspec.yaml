@@ -1,0 +1,87 @@
+name: rempc
+description: service application
+
+publish_to: 'none'
+
+version: 2.1.6+240111
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  api:
+    path: ../modules/api
+  app_camera:
+    path: ../modules/app_camera
+  audio_player:
+    path: ../modules/audio_player
+  core:
+    path: ../modules/core
+  contacts:
+    path: ../modules/contacts
+  dictionary:
+    path: ../modules/dictionary
+  firebase:
+    path: ../modules/firebase
+  repository:
+    path: ../modules/repository
+  uikit:
+    path: ../modules/uikit
+  preference:
+    path: ../packages/preference
+  sip:
+    path: ../modules/sip
+  json_reader:
+    path: ../packages/json_reader
+  mime: ^1.0.4
+  uuid: ^4.2.1
+  date_time_picker:
+    path: ../packages/date_time_picker
+  flutter_dialpad:
+    path: ../modules/flutter_dialpad
+  settings_ui: ^2.0.2
+  timeago: ^3.6.0
+  back_blocker:
+    path: ../packages/back_blocker
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: ^0.13.1
+
+  flutter_lints: ^3.0.1
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/icon/logo.png"
+  adaptive_icon_background: "#ffffff"
+
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+  fonts:
+    - family: 'SFProText'
+      fonts:
+        - asset: assets/fonts/SF-Pro-Text-Black.otf
+          weight: 900
+        - asset: assets/fonts/SF-Pro-Text-Bold.otf
+          weight: 800
+        - asset: assets/fonts/SF-Pro-Text-Heavy.otf
+          weight: 700
+        - asset: assets/fonts/SF-Pro-Text-Semibold.otf
+          weight: 600
+        - asset: assets/fonts/SF-Pro-Text-Medium.otf
+          weight: 500
+        - asset: assets/fonts/SF-Pro-Text-Regular.otf
+          weight: 400
+        - asset: assets/fonts/SF-Pro-Text-Thin.otf
+          weight: 300
+        - asset: assets/fonts/SF-Pro-Text-Ultralight.otf
+          weight: 100

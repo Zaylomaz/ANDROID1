@@ -1,0 +1,23 @@
+name: contacts
+
+publish_to: 'none'
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+  flutter: ">=1.17.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  core:
+    path: ../core
+  repository:
+    path: ../repository
+  sip:
+    path: ../sip
+  uikit:
+    path: ../uikit
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter

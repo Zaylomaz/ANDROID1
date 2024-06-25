@@ -1,0 +1,19 @@
+name: dictionary
+publish_to: 'none'
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+  flutter: ">=1.17.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  api:
+    path: ../api
+  json_reader:
+    path: ../../packages/json_reader
+  preference:
+    path: ../../packages/preference
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+  hive_generator: ^2.0.1

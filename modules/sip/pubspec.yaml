@@ -1,0 +1,23 @@
+name: sip
+
+publish_to: 'none'
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+  flutter: ">=1.17.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  core:
+    path: ../core
+  repository:
+    path: ../repository
+  uikit:
+    path: ../uikit
+  flutter_callkit_incoming:
+    path: ../../packages/flutter_callkit_incoming
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter

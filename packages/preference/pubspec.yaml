@@ -1,0 +1,16 @@
+name: preference
+
+environment:
+  sdk: '>=2.17.0 <3.0.0'
+  flutter: '>=1.17.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  uuid: # use version from outside
+  rxdart: # use version from outside
+  encrypt: # use version from outside
+  flutter_secure_storage: # use version from outside
+
+  shared_preferences: ^2.0.9

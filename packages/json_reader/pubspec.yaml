@@ -1,0 +1,15 @@
+name: json_reader
+version: 0.0.1
+
+environment:
+  sdk: '>=2.17.0 <3.0.0'
+  flutter: '>=1.17.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  intl: # use version from outside
+  quiver: # use version from outside
+
+flutter:
